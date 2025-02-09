@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  action="" method="post"  >
+        <div>
+            <label for="username">Họ và Tên</label>
+            <input name="username" type="text" id="username" placeholder="Tiểu Nhất Bạch">
+        </div>
+        
+        <div>
+            <label for="datetime">Chọn ngày và giờ:</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+        </div>
+        
+        <div>
+            <label for="service">loại dịch vụ</label>
+            <select name="service" id="service">
+                <option value="tu-van">tư vấn</option>
+                <option value="chuyen-mon">chuyên môn</option>
+                <option value="hoc-nghe">học nghề</option>
+            </select>
+        </div>
+        <div>
+            <label for="note">ghi chú</label>
+            <textarea name="note" id="note"></textarea>
+         </div>
+         <div>
+                <input type="submit" value="đặt lịch">
+         </div>
+    </form>
+</body>
+</html>
